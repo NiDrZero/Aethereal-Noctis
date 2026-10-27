@@ -9,6 +9,4 @@ jobs:
         uses: ai-action/setup-ollama@v2
 
       - name: Run model
-        run: ollama run beam:cloud 'What model are you?'
-        env:
-           ollama-api-key: ${{ secrets.OLLAMA_API_KEY }}
+        run: ollama run ornith 'What model are you?'
