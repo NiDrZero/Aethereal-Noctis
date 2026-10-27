@@ -9,4 +9,4 @@ jobs:
         uses: ai-action/setup-ollama@v2
 
       - name: Run model
-        run: ollama run ornith 'What model are you?'
+        run: ollama run ornith-1.5:9b 'What model are you?'
