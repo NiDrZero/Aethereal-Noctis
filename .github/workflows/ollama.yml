@@ -10,5 +10,5 @@ jobs:
 
       - name: Run model
         run: ollama run beam:cloud 'What model are you?'
-        with:
+        env:
            ollama-api-key: ${{ secrets.OLLAMA_API_KEY }}
